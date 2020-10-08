@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../style/footer.css'
 
 // function Topo (){
 //     return(
@@ -29,12 +29,12 @@ import React, { Component } from 'react';
 class Topo extends Component {
     render (){
         return(
-            <div>
-              <a href= 'Home'>Home</a>
-              <a href= 'Sobre'>Sobre</a>
-              <a href= 'Contato'>Contato</a>
-              <a href= 'Serviços'>Serviços</a>
-              <a href= 'Parceiro'>Parceiros</a><br></br>
+            <div className='corfundo letra2'>
+              <a className='mx-2' href= 'Home'>Home</a>
+              <a className='mx-2' href= 'Sobre'>Sobre</a>
+              <a className='mx-2' href= 'Contato'>Contato</a>
+              <a className='mx-2' href= 'Serviços'>Serviços</a>
+              <a className='mx-2' href= 'Parceiro'>Parceiros</a><br></br>
             {this.props.name}<br></br>
               <img src= {this.props.img}></img>
 
