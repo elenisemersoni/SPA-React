@@ -3,11 +3,14 @@
   }
 
   .corfundo {
-      background-color: RosyBrown;
+      background-color: rgb(206, 150, 150);
   }
 
+  .corhome {
+    background-color: rgb(161, 89, 89);
+}
   .cormeio {
-    background-color: rgb(163, 100, 100);
+    background-color: rgb(236, 198, 198);
 }
 
 
@@ -15,5 +18,31 @@
     font-family: 'Sansita Swashed', cursive;
   }
 
-  .letra2{
-      font-family: 'Sansita Swashed', cursive;}
+
+.letra2 {
+   font-family: 'Cinzel', serif;}
+
+   
+.letra3 {
+  font-family: 'Amatic SC', cursive;}
+
+      
+.centro {text-align: center;} 
+
+
+.textocor{color: white}
+
+.corfundob{background-color: RosyBrown;}
+
+.tamanho{height: 30%;
+width: 30%;}
+
+
+.tamanho2{height: 50%;
+  width: 50%;}
+
+.logo-spin {
+  animation: App-logo-spin infinite 10s linear;
+}
+
+
